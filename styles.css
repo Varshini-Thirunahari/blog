@@ -1,0 +1,68 @@
+body {
+    font-family: Times New Roman, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: Lavender;
+}
+
+h1, h2 {
+    font-family: Times New Roman, sans-serif;
+}
+
+h3, p {
+    font-family: Garamond, serif;
+}
+
+header {
+    background-color: CadetBlue;
+    color: Black;
+    padding: 40px;
+    text-align: center;
+}
+
+nav {
+    background-color: grey;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 5;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: Black;
+    font-weight: bold;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: Thistle;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+img.project-image {
+    max-width: 5%;
+    border-radius: 10%;
+    display: block;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+p {
+    font-size: 20px;
+}
